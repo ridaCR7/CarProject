@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.sky {
+    height:100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.trees{
+    height:100vh;
+    width:100%;
+    background-image: url(trees.png);
+    position:absolute;
+    top:-144px;
+}
+
+.track{
+    height:60vh;
+    width:100%;
+    background-image: url(track.png);
+    background-size: cover;
+    position:absolute;
+    top:70vh;
+}
+
+.car{
+    height:100px;
+    width:380px;
+    background-image: url(car_body.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    left:444px;
+    bottom:70px;
+}
+
+.wheel1 img {
+    position:relative;
+    width:77px;
+   top: 39px;
+   left: 42px;
+
+
+}
+
+
+.wheel2 img{ 
+    position:relative;
+    width:77px;
+    top:-39px;
+    left:235px;
+}
